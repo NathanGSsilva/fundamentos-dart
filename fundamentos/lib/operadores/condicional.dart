@@ -7,13 +7,13 @@ void main() {
 
   if (idade != null) {
     final idadeConvertida = int.tryParse(idade);
-    // if (idadeConvertida != null && idadeConvertida < LimiteIdade) {
-    //   print("Não pode voltar");
-    // } else if (idadeConvertida == LimiteIdade) {
-    //   print("Escolha com sabedoria filho!");
-    // } else {
-    //   print("Pode votar");
-    // }
+    if (idadeConvertida != null && idadeConvertida < LimiteIdade) {
+      print("Não pode voltar");
+    } else if (idadeConvertida == LimiteIdade) {
+      print("Escolha com sabedoria filho!");
+    } else {
+      print("Pode votar");
+    }
 
     final podeVotar = (idadeConvertida != null)?idadeConvertida >= LimiteIdade : false;
 

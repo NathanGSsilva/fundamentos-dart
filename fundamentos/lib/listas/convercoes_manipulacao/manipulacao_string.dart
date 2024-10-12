@@ -21,38 +21,38 @@ void main() {
   // }
 
   // if (sexo.toLowerCase().startsWith("m")) {
-  //   print("Sexo Masculino");
-  // } else {
-  //   print("Sexo Feminino");
-  // }
+    print("Sexo Masculino");
+  } else {
+    print("Sexo Feminino");
+  }
 
-  // if (nome.toUpperCase().contains("TAL")) {
-  //   print("tem");
-  // } else {
-  //   print("nao tem");
-  // }
+  if (nome.toUpperCase().contains("TAL")) {
+    print("tem");
+  } else {
+    print("nao tem");
+  }
 
-  // final primeroN = "Nathan";
-  // final segundoN = "Gabriel";
-  // final saudacao = "Ola " + primeroN + " " + segundoN + ", Joia?";
-  // final saudacao2 = "Ola ${primeroN} ${segundoN}, Joia?";
-  // final saudacao3 = "Ola $primeroN $segundoN, Joia?";
+  final primeroN = "Nathan";
+  final segundoN = "Gabriel";
+  final saudacao = "Ola " + primeroN + " " + segundoN + ", Joia?";
+  final saudacao2 = "Ola ${primeroN} ${segundoN}, Joia?";
+  final saudacao3 = "Ola $primeroN $segundoN, Joia?";
 
-  // print(saudacao);
-  // print(saudacao2);
-  // print(saudacao3);
+  print(saudacao);
+  print(saudacao2);
+  print(saudacao3);
 
-  // var paciente = "Nathan|10 anos|Brasileiro";
+  var paciente = "Nathan|10 anos|Brasileiro";
 
-  // final dadosPaciente = paciente.split("|");
+  final dadosPaciente = paciente.split("|");
 
-  // paciente = "Joao|20 anos|Americano";
+  paciente = "Joao|20 anos|Americano";
 
-  // dadosPaciente.addAll(paciente.split("|"));
+  dadosPaciente.addAll(paciente.split("|"));
 
-  // paciente = "Maria|30 anos|Brasileiro";
+  paciente = "Maria|30 anos|Brasileiro";
 
-  // dadosPaciente.addAll(paciente.split("|"));
+  dadosPaciente.addAll(paciente.split("|"));
 
   final test = [
     ["Nathan", "10 anos", "Brasileiro"],
@@ -60,9 +60,9 @@ void main() {
     ["Maria", "30 anos", "Brasileiro"]
   ];
 
-  // for (var dados in test) {
-  //   print("Nome: ${dados[0]} Idade: ${dados[1]} Nacionalidade: ${dados[2]}");
-  // }
+  for (var dados in test) {
+    print("Nome: ${dados[0]} Idade: ${dados[1]} Nacionalidade: ${dados[2]}");
+  }
 
   final test2 = [
     "Nathan|10 anos|Brasileiro",
