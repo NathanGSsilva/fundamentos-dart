@@ -9,11 +9,11 @@ class Usuario {
   List<String> emails;
 
   Usuario({
-    required this.nome,
-    required this.idade,
-    required this.eEstudante,
-    required this.telefones,
-    required this.emails
+    required this.nome, 
+    required this.idade, 
+    required this.eEstudante, 
+    required this.telefones, 
+    required this.emails 
   });
 
   //Método para converter um objeto Usuario em um mapa
