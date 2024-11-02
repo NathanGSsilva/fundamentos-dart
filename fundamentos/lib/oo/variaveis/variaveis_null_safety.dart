@@ -6,7 +6,7 @@ O Null Safety torna o sistema de Tipagem Forte mais rigoroso */
 
 // variaveis non-nullable
 
-String nomeCompletoComAtribuicao = null;
+String? nomeCompletoComAtribuicao = null;
 nomeCompletoComAtribuicao = "Fundamentos do Dart";
 
 String nomeCompletoSemAtribuicao;

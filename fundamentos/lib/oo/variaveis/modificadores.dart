@@ -15,7 +15,7 @@ void main(){
   print(nomeCursoFinal);
 
   //Não é possivel reatribuir um valor na variavel declarada como final
-  nomeCursoFinal = "teste";
+  // nomeCursoFinal = "teste";
 
   //Const
   const nomeCursoConstante = "Fundamentos em Dart";

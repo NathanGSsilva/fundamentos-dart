@@ -20,7 +20,7 @@ void main() {
   //   print("Sexo Feminino");
   // }
 
-  // if (sexo.toLowerCase().startsWith("m")) {
+  if (sexo.toLowerCase().startsWith("m")) {
     print("Sexo Masculino");
   } else {
     print("Sexo Feminino");
