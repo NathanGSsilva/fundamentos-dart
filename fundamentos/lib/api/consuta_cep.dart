@@ -35,6 +35,8 @@ class Endereco {
     required this.siafi
   });
 
+    //teste de comit
+
   //Método para converter um objeto Usuario em um mapa
 
   Map<String, dynamic> paraJson(){
@@ -104,4 +106,3 @@ Future<void> main(List<String> args) async{
   print('ddd: ${teste.ddd}'); 
   print('siafi: ${teste.siafi}'); 
   }
-}
